@@ -146,7 +146,8 @@ export const Formulario = ({Pacientes, setPacientes, Paciente, setPaciente}) => 
                 </div>
 
                 <input 
-                            type="submit" 
+                            type="submit"
+                            id="Agregar" 
                             value={Paciente.id ? "Editar Paciente" : "Agregar Paciente" }
                             className=" bg-indigo-600 w-full p-3 text-white uppercase font-bold hover:bg-indigo-900 cursor-pointer transition-all" />
             </form>
